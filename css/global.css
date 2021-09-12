@@ -1,0 +1,47 @@
+/*======= global styles ========*/
+/*==============================*/
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+    --grey-clr-900:hsl(0, 0%, 13%);
+    --grey-clr-600:hsl(0, 0%, 16%);
+    --grey-clr-300:hsl(0, 0%, 19%);
+    --grey-clr-100:hsl(0,0%,25%);
+    --yellow-clr-900:hsl(49, 100%, 49%);
+}
+html{
+    max-height: 100%;
+}
+/***********************************/
+/*======== fonts =================*/
+/*==================================*/
+
+/*===== gotham font ========*/
+@font-face{
+    font-family: gotham-fnt;
+    src:url('/fonts/GothamBold.ttf');
+}
+/*===== myraidpro font =======*/
+@font-face {
+    font-family: myraid;
+    src: url('/fonts/myriadpro-light.otf');
+}
+/*================================*/
+/*=========== body ===============*/
+/*================================*/
+
+body{
+    font-size:1.6rem;
+    height: 100vh;
+    font-family: myraid;
+    overflow: hidden;
+    margin: 0;
+    padding:0;
+    background-color: var(--grey-clr-600);
+}
